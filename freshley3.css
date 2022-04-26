@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(fa10.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    margin: inherit;
+}
+h2{
+    font-size: 27px;
+    color: #2bbb0d;
+    text-align: center;
+}
+h3,h5,p{
+    color: white;
+    text-align: center;
+}
+.bookingformbox{
+    max-width: 350px;
+    border:1px solid #ced4da;
+    margin: 4% auto 0;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgba(250, 246, 246, 0.874);
+}
+.bookingform {
+    text-align: left;
+    margin-left: 15px;
+}
+input{
+    font-size: 15px;
+    outline:none;
+}
+nav{
+    background: rgb(0,100,0);
+    height:115px;
+    width:100%;
+    position: inherit;
+}
+nav img{
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    margin-right: 2px;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+nav ul li.logo{
+    color: white;
+    font-size: 30px;
+    line-height: 100px;
+    padding:0 155px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right:20px;
+}
+nav li{
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 5px;
+}
+nav a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: #2bab0d;
+    transition: .5s;
+}
+.sign{
+    text-decoration: underline;
+    font-size: 35px;
+}

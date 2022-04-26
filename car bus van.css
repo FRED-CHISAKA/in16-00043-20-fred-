@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(fa10.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    margin: inherit;
+}
+.column{
+    max-width: 250px;
+    border:1px solid #ced4da;
+    margin: 4% auto 0;
+    text-align: center;
+    font-size: 18px;
+    background-color: white;
+}
+.column a{
+    color: deeppink;
+}
+.row{
+    text-align: left;
+    margin-left: 15px;
+}
+p{
+    color: black;
+    font-size: 14px;
+    line-height: 15px;
+}
+button{
+    max-width: 180px;
+    background-color: deeppink;
+    padding: 12px 0;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.column button a{
+    color: white;
+    font-size: 14px;
+}
