@@ -2,24 +2,24 @@
 <html>
     <head>
         <title>stayings</title>
-        <link rel="stylesheet" href="buses and cars.css">
+        <link rel="stylesheet" href="buses and vans.css">
     </head>
     <body>
         <nav>
             <img src="fa114.png">
             <ul>
                 <li class="logo">CMF TRAVELS</li>
-                <li><a href="Welcome to CMF TRAVELS.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="CAR RENTALS.html">Car Rental</a></li>
                 <li><a href="#"  class="active">Buses and Vans</a></li>
                 <li><a href="STAYS.html">Stays</a></li>
                 <li class="sign"><a href="CMF TRAVELS LOG IN.html">sign in</a></li>
             </ul><br>
         </nav><br><br><br><br>
-        <h1>See our buses and vans, compare the pricing and decide on which one to take. </h1><br><br><br>
-        
-            <div class="table">
+        <h1>See our buses and vans, compare the pricing and decide on which one to take. </h1><br>
                 <div class="selebo">
+                    <div class="column">
+                        <div class="row">
                     <select>
                         <option>One-way Trip</option>
                         <option>Round-Trip</option>
@@ -30,39 +30,64 @@
                         <option>Youth (12-17)</option>
                         <option>Children (2-11)</option>
                     </select>
-                    <label class="no">
+                    <label>
                         Number of people: <input type="text" name="">
                     </label>
-                    <div class="column">
-                        <div class="row">
-                            <button type="button"><a href="CMF Travels application form.html"> BOOK NOW</a></button><br><br>
-                            <p><a href="#">Reserve now and pay later </a> to book a space without any charges.</p><br>
-                        </div>
+                    <label>
+                        <button type="button"><a href="CMF Travels application form.html"> BOOK NOW</a></button><br><br>
+                        <p><a href="#">Reserve now and pay later </a></p>
+                        <p>to book a space without any charges.</p>
+                    </label>
+                    <label>Choose a bus:</label>
+                    <select>
+                        <option>SCANIA</option>
+                        <option>BUS 2</option>
+                        <option>BUS 3</option>
+                    </select>
+                    <label>Pricing per hour: </label>
+                    <select>
+                        <option>SCANIA (200)</option>
+                        <option>BUS 2 (180)</option>
+                        <option>BUS 3 (140)</option>
+                    </select><br><br>
+                    <label>Choose a van:</label>
+                    <select>
+                        <option>VAN 1</option>
+                        <option>VAN 2</option>
+                        <option>VAN 3</option>
+                        <option>VAN 4</option>
+                    </select>
+                    <label>Pricing per hour: </label>
+                    <select>
+                        <option>VAN 1 (150)</option>
+                        <option>VAN 2 (135)</option>
+                        <option>VAN 3 (120)</option>
+                        <option>VAN 4 (100)</option>
+                    </select><br><br>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>FROM</th>
+                                    <th>TO</th>
+                                    <th>DEPARTURE</th>
+                                    <th>RETURN</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input type="text" placeholder="from" name=""></td>
+                                    <td><input type="text" placeholder="to" name=""></td>
+                                    <td><input type="time" name=""></td>
+                                    <td><input type="time" name=""></td>
+                                </tr>
+                            </tbody>
+                        </table><br>
+                        <label> Would you travel with a bus, van or both?</label>
+                        <label><input type="checkbox"> Bus <input type="checkbox"> Van</label>
+                    </div><br><br>
                     </div>
-                </div>
-                <br><br><br>
-            <table>
-                <thead>
-                    <tr>
-                        <th>FROM</th>
-                        <th>TO</th>
-                        <th>DEPARTURE</th>
-                        <th>RETURN</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><input type="text" placeholder="from" name=""></td>
-                        <td><input type="text" placeholder="to" name=""></td>
-                        <td><input type="datetime" placeholder="time" name=""></td>
-                        <td><input type="datetime" placeholder="time" name=""></td>
-                    </tr>
-                </tbody>
-            </table><br><br>
-            <label> Would you travel with a bus, van or both?</label>
-            <label><input type="checkbox"> Bus <input type="checkbox"> Van</label>
-        </div><br><br>
-        <br><br>
+                </div><br><br><br>
+
         <div class="tebocol"><br>
             <h2>Travel in one of them and have the best experience ever.</h2>
             <h3>In company with some of the best sceneries.</h3><br><br>
@@ -90,7 +115,7 @@
             <br><br>
             <div class="places places8">
                 <h5>SCANIA</h5>
-                <p>Capacity of 72 people. The most loved bus.</p>
+                <p>They are 4. Capacity of 72 people. The most loved bus.</p>
             </div>
             <div class="places places6">
                 <h5>BUS PARKING</h5>
@@ -98,7 +123,7 @@
             </div>
             <div class="places places7">
                 <h5>BUS 2</h5>
-                <p>Comfortable and very affordable. Capacity of 50 people.</p>
+                <p>They are 2. Comfortable and very affordable. Capacity of 50 people.</p>
             </div>
             <div class="places places5">
                 <h5>BUS 3</h5>
@@ -130,6 +155,49 @@
             <p>Places that give our travellers </p>
             <p>the best and memorable experience.</p>
             </div><br>
-        </div>
+        </div><br><br><br>
+        <footer class="footer">
+        <div class="colum">
+            <div class="raw">
+                <div class="mylists">
+                    <h4>COMPANY</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Discover</a></li>
+                        <li><a href="#">Our services</a></li>
+                        <li><a href="#">Why CMF travels is the best</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="mylists">
+                    <h4>CONTACT</h4>
+                    <ul>
+                        <li class="con">Tel: 0712345678</li>
+                        <li><a href="#">Email:chisakamusumba@gmail.com </a></li>
+                        <li class="con">P.O BOX 251, MUMIAS</li>
+                    </ul>
+                </div>
+                <div class="mylists">
+                    <h4>PARTNERS</h4>
+                    <ul class="con">
+                        <li>Nairobi-Opposite Uhuru garden</li>
+                        <li>Kisumu-Opposite the airport</li>
+                        <li>Eldoret-After referral hospital</li>
+                    </ul>
+                </div>
+                <div class="mylists">
+                    <h4>SOCIAL MEDIA</h4>
+                    <ul>
+                        <li ><a href="#">Facebook</a></li>
+                        <li ><a href="#">Twitter</a></li>
+                        <li ><a href="#">Whatsapp</a></li>
+                        <li ><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div><br>
+            <hr color="white" width="100%">
+        </div><br>
+                <p class="terms">Privacy Terms &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Conditions &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&copy;2022CMF TRAVELS</p>
+        </footer>
     </body>
 </html>

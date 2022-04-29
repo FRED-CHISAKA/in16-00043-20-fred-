@@ -1,0 +1,307 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(fa10.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: sans-serif;
+}
+h1,h2,h3{
+    text-align: center;
+}
+h1{
+    font-size: 25px;
+}
+nav{
+    background: rgb(0,100,0);
+    height:115px;
+    width:100%;
+    position: inherit;
+}
+img{
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    margin-left: 20px;
+    margin-top: 3px;
+    margin-right: 2px;
+}
+nav ul li.logo{
+    color: white;
+    font-size: 30px;
+    line-height: 100px;
+    padding: 0 155px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right:20px;
+}
+nav li{
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 5px;
+}
+nav a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: #2bab0d;
+    transition: .5s;
+}
+.sign{
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+.selebo select{
+    color: white;
+    width: 170px;
+    background-color: #2bab0d;
+    font-size: 14px;
+    padding: 3px;
+    border-radius: 20px;
+    outline: none;
+}
+table{
+    width: 820px;
+    font-size: 15px;
+    color: #444;
+    white-space: nowrap;
+    border-collapse: collapse;
+}
+table thead{
+    background-color: #2bab0d;
+    color: white;
+}
+table thead th{
+    padding: 10px;
+}
+table th,table td{
+    border: 1px solid #000000;
+    padding: 10px 15px;
+}
+table tbody tr{
+    background-color: white;
+    transition: 0.3s ease-in-out;
+}
+table tbody tr td input{
+    padding: 6px 0;
+    width: 180px;
+    outline: inherit;
+}
+.column{
+    width: 860px;
+    height: 340px;
+    border:1px solid #ced4da;
+    font-size: 18px;
+    background-color: rgba(141, 219, 118, 0.1);
+    margin:4% auto 0;
+}
+.column a{
+    color: deeppink;
+}
+.column p {
+    margin-left: 650px;
+}
+.row{
+    margin-left: 10px;
+}
+label p{
+    color: white;
+    font-size: 14px;
+    line-height: 15px;
+    background-color: black;
+    width: 190px;
+}
+button{
+    width: 180px;
+    background-color: deeppink;
+    padding: 12px 0;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10px;
+    margin-left: 9px;
+}
+.column button a{
+    color: white;
+    font-size: 14px;
+}
+.column a:hover{
+    background-color: inherit; 
+}
+.row label{
+    color: white;
+    font-size: 15px;
+}
+.selebo label input{
+    color: white;
+    text-align: center;
+    width: 40px;
+    background-color:rgba(141, 219, 118, 0);
+    font-size: 14px;
+    padding: inherit;
+    border-radius: 20px;
+    outline-color: #2bab0d;
+    outline-style: double;
+}
+h3{
+    color: white;
+    font-size: 15px;
+}
+.tebocol{
+    flex-basis: 50%;
+    background-color: rgba(105, 10, 101, 0.445);
+}
+.places{
+    width: 300px;
+    height: 150px;
+    display: inline-table;
+    border-radius: 10px;
+    padding: 13px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 8px 11px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.3s;
+    text-align: left;
+    margin-left: 20px;
+}
+.places1{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url(fa38.jpg);
+    
+}
+.places2{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url(fa39.jpg);
+}
+.places3{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url(fa40.jpg);
+}
+.places4{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(fa42.jpg);
+}
+.places5{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(fa43.jpg);
+}
+.places6{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url(fa44.jpg);
+}
+.places7{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url(fa45.jpg);
+}
+.places8{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url(fa46.jpg);
+}
+.places9{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(fa47.jpg);
+}
+.places10{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url(fa48.jpg);
+}
+.places11{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url(fa49.jpg);
+}
+.places12{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url(fa41.jpg);
+}
+.places:hover{
+    transform: translateY(-10px);
+}
+h3{
+    color: white;
+}
+h5{
+    font-size: 18px;
+    font-weight: bold;
+    color: #2bab0d;
+}
+.tebocol .places p{
+    color: white;
+    font-size: 13px;
+    text-align: left;
+}
+.tebocol .para p{
+    color: white;
+    text-align: left;
+    font-size: 14px;
+    margin-left: 20px;
+
+}
+.tebocol h4{
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 17px;
+}
+.footer{
+    background-color: rgb(0,100,0);
+    padding: 40px 0;
+}
+.colum{
+    max-width: 1170px;
+    margin: auto;
+}
+.raw{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mylists{
+    width: 25%;
+    padding: 0 10px;
+}
+.mylists h4{
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.mylists h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: aqua;
+    height: 2px;
+    width: 70px;
+    box-sizing: border-box;
+}
+.mylists ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.mylists ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.2s ease;
+}
+.con{
+    font-size: 12px;
+    color: #bbbbbb;
+    font-weight: 300;
+    display: block;
+}
+.mylists ul li a:hover{
+    color: #fff;
+    padding-left: 6px;
+    background-color: rgb(0,100,0);
+}
+footer .terms{
+    font-size: 12px;
+    color: #bbbbbb;
+    text-align: center;
+}

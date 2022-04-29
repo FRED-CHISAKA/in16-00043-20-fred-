@@ -2,21 +2,18 @@
 <html>
 <head>
     <title>CMF Travels application form</title>
-    <link rel="stylesheet" href="freshley3.css">
-    <script type="text/javascript">
-        alert("welcome to cmf travels")
-    </script>
+    <link rel="stylesheet" href="cmf appl form.css">
 </head>
 <body>
     <nav>
         <img src="fa114.png">
         <ul>
             <li class="logo">CMF TRAVELS</li>
-            <li><a href="Welcome to CMF TRAVELS.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="CAR RENTALS.html">Car Rental</a></li>
             <li><a href="buses and vans.html">Buses and Vans</a></li>
             <li><a href="stays.html">Stays</a></li>
-            <li class="sign"><a href="#"  class="active">sign in</a></li>
+            <li class="sign"><a href="CMF TRAVELS LOG IN.html">sign in</a></li>
         </ul><br>
     </nav><br><br><br>
     <h2 >Thank you for signing in to CMF TRAVELS</h2><br>
@@ -25,30 +22,77 @@
     <p>Fill in the necessary information and follow the instructions that will be given.</p>
     <div class="bookingformbox">
     <div class="bookingform"><br>
-           <label>First Name: </label><br>
+           <label>*First Name: </label><br>
             <input type="text" required placeholder="name"><br><br>
             <label>Surname: </label><br>
             <input type="text" placeholder="name"><br><br>
-            <label>Last Name: </label><br>
-            <input type="text" placeholder="name"><br><br>
+            <label>*Last Name: </label><br>
+            <input type="text" required placeholder="name"><br><br>
             <div class="radio-btn">Gender: <br><br>
                 <input type="radio" name="GENDER" checked="checked"><span>Male</span>
                 <input type="radio" name="GENDER"><span>Female</span>
                 <input type="radio" name="GENDER"><span>Others</span>
             </div><br>
-            <label>Country of origin:</label><br>
-            <input type="text" placeholder="country"><br><br>
-            <label>If Kenya, County: </label><br>
-            <input type="text" placeholder="county"><br><br>
-            <label>Sub-county: </label><br>
-            <input type="text" placeholder=""><br><br>
+            <label>*Country of origin:</label><br>
+            <input type="text" required placeholder="country"><br><br>
             <label>Phone Number/Tel: </label><br>
             <input type="text" placeholder="+123..."><br><br>
             <label>Official Address:</label><br>
             <input type="text" placeholder="P.O..."><br><br>
-            <label>City/Town/Street:</label><br>
-            <input type="text" placeholder="place"><br><br><br><br>
+            <label>*Did you book/rent a car, bus, van or stay?</label><br>
+            <input type="text" required placeholder="text"><br><br>
+            <label>Date of booking/rental.</label><br>
+            <input type="date"><br><br>
+            <label><a href="https://www.safaricom.co.ke">*Payment (Code will be send by email)</a></label><br><br>
+            <label><a href="#">Reserve a car/van/bus or a stay.</a></label><br><br>
+            <label><a href="#">Cancel booking/rental</a></label><br><br>
+            <label>Any comment on our services?</label><br>
+            <textarea id="" name="" rows="7" cols="70" placeholder="comment"></textarea>
+            <button type="button"><a href="successful.html">Submit</a></button><br><br>
     </div>
-    </div><br><br><br><br>
+    </div><br><br>
+    <footer class="footer">
+    <div class="colum">
+        <div class="raw">
+            <div class="mylists">
+                <h4>COMPANY</h4>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Our services</a></li>
+                    <li><a href="#">Why CMF travels is the best</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                </ul>
+            </div>
+            <div class="mylists">
+                <h4>CONTACT</h4>
+                <ul>
+                    <li class="con">Tel: 0712345678</li>
+                    <li><a href="#">Email:chisakamusumba@gmail.com </a></li>
+                    <li class="con">P.O BOX 251, MUMIAS</li>
+                </ul>
+            </div>
+            <div class="mylists">
+                <h4>PARTNERS</h4>
+                <ul class="con">
+                    <li>Nairobi-Opposite Uhuru garden</li>
+                    <li>Kisumu-Opposite the airport</li>
+                    <li>Eldoret-After referral hospital</li>
+                </ul>
+            </div>
+            <div class="mylists">
+                <h4>SOCIAL MEDIA</h4>
+                <ul>
+                    <li ><a href="#">Facebook</a></li>
+                    <li ><a href="#">Twitter</a></li>
+                    <li ><a href="#">Whatsapp</a></li>
+                    <li ><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div><br>
+        <hr color="white" width="100%">
+    </div><br>
+            <p class="terms">Privacy Terms &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Conditions &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&copy;2022CMF TRAVELS</p>
+    </footer>
 </body>
 </html>

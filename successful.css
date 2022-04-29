@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    background-image:url(fa10.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+h1{
+    color: #2bab0d;
+    text-align: center;
+}
+h2{
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    font-family:calibri;
+}
+p{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+body img{
+    border-radius: 50%;
+    margin-left: 28%;
+}
+nav{
+    background: rgb(0,100,0);
+    height:115px;
+    width:100%;
+    position: inherit;
+}
+nav img{
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    margin-left: 20px;
+    margin-right: 2px;
+    margin-top: 3px;
+}
+nav ul li.logo{
+    color: white;
+    font-size: 30px;
+    line-height: 100px;
+    padding: 0 155px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right:20px;
+}
+nav li{
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 5px;
+}
+nav a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a:hover{
+    background: #2bab0d;
+    transition: .5s;
+}
+.sign{
+    text-decoration: underline;
+    font-size: 35px;
+}
+.footer{
+    background-color: rgb(0,100,0);
+    padding: 40px 0;
+}
+.colum{
+    max-width: 1170px;
+    margin: auto;
+}
+.raw{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mylists{
+    width: 25%;
+    padding: 0 10px;
+}
+.mylists h4{
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.mylists h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: aqua;
+    height: 2px;
+    width: 70px;
+    box-sizing: border-box;
+}
+.mylists ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.mylists ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.2s ease;
+}
+.con{
+    font-size: 12px;
+    color: #bbbbbb;
+    font-weight: 300;
+    display: block;
+}
+.mylists ul li a:hover{
+    color: #fff;
+    padding-left: 6px;
+    background-color: rgb(0,100,0);
+}
+footer .terms{
+    font-size: 12px;
+    color: #bbbbbb;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+

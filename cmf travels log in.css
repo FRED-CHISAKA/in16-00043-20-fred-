@@ -61,7 +61,7 @@ hr{
 }
 .or{
     background-color: #fff;
-    width: 30px;
+    width: 21px;
     margin: -10px auto 10px;
 }
 img{
@@ -84,7 +84,7 @@ nav{
     background: rgb(0,100,0);
     height:115px;
     width:100%;
-    position: fixed;
+    position: inherit;
 }
 nav img{
     border-radius: 50%;
@@ -132,7 +132,66 @@ p{
     background-color:#21afde;
     border-radius: 10%;
 }
-
+.footer{
+    background-color: rgb(0,100,0);
+    padding: 40px 0;
+}
+.colum{
+    max-width: 1170px;
+    margin: auto;
+}
+.raw{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mylists{
+    width: 25%;
+    padding: 0 10px;
+}
+.mylists h4{
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.mylists h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: aqua;
+    height: 2px;
+    width: 70px;
+    box-sizing: border-box;
+}
+.mylists ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.mylists ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.2s ease;
+}
+.con{
+    font-size: 12px;
+    color: #bbbbbb;
+    font-weight: 300;
+    display: block;
+}
+.mylists ul li a:hover{
+    color: #fff;
+    padding-left: 6px;
+    background-color: rgb(0,100,0);
+}
+footer .terms{
+    font-size: 12px;
+    color: #bbbbbb;
+    text-align: center;
+}
 
 
 

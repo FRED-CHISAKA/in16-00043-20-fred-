@@ -21,7 +21,7 @@ h2{
     text-align: center;
     font-family:calibri;
 }
-h3,h4{
+h3{
     color: white;
     font-size: 15px;
     text-align: center;
@@ -71,8 +71,102 @@ nav a{
     text-decoration: underline;
     font-size: 35px;
 }
+.selebo select{
+    color: white;
+    width: 170px;
+    background-color: #2bab0d;
+    font-size: 14px;
+    padding: 3px;
+    border-radius: 20px;
+    outline: none;
+}
+.column table{
+    width: 480px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: #444;
+    white-space: nowrap;
+    border-collapse: collapse;
+}
+.column table thead{
+    background-color: #2bab0d;
+    color: white;
+}
+.column table thead th{
+    padding: 10px;
+}
+.column table th,.column table td{
+    border: 1px solid #000000;
+    padding: 10px 15px;
+}
+.column table tbody tr{
+    background-color: white;
+    transition: 0.3s ease-in-out;
+}
+.column table tbody tr td input{
+    padding: 6px 0;
+    width: 180px;
+    outline: inherit;
+}
+.column{
+    width: 860px;
+    height: 280px;
+    border:1px solid #ced4da;
+    font-size: 18px;
+    background-color: rgba(141, 219, 118, 0.1);
+    margin:4% auto 0;
+}
+.column a{
+    color: deeppink;
+}
+.column p {
+    margin-left: 660px;
+}
+.row{
+    text-align: center;
+}
+label p{
+    color: white;
+    font-size: 14px;
+    line-height: 15px;
+    background-color: black;
+    width: 190px;
+}
+button{
+    width: 180px;
+    background-color: deeppink;
+    padding: 12px 0;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10px;
+    margin-left: 97px;
+}
+.column button a{
+    color: white;
+    font-size: 14px;
+}
+.column a:hover{
+    background-color: inherit; 
+}
+.row label{
+    color: white;
+    font-size: 15px;
+}
+.selebo label input{
+    text-align: center;
+    width: 40px;
+    background-color:rgba(141, 219, 118, 0);
+    font-size: 14px;
+    padding: inherit;
+    border-radius: 20px;
+    outline-color: #2bab0d;
+    outline-style: double;
+    color: white;
+}
 .tebocol{
     flex-basis: 50%;
+    background-color: rgba(105, 10, 101, 0.445);
 }
 .places{
     width: 300px;
@@ -98,19 +192,19 @@ nav a{
     background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url(fa17.jpg);
 }
 .places4{
-    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(fa18.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(fa5.jpg);
 }
 .places5{
     background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(fa19.jpg);
 }
 .places6{
-    background-image: url(fa20.png);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url(fa50.jpg);
 }
 .places7{
-    background-image: url(fa21.png);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url(fa1.jpg);
 }
 .places8{
-    background-image:url(fa22.png);
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url(fa14.jpg);
 }
 .places:hover{
     transform: translateY(-10px);
@@ -171,8 +265,66 @@ table tbody tr:hover{
     background-color: white;
     border-radius: 10%;
 }
-
-
+.footer{
+    background-color: rgb(0,100,0);
+    padding: 40px 0;
+}
+.colum{
+    max-width: 1170px;
+    margin: auto;
+}
+.raw{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mylists{
+    width: 25%;
+    padding: 0 10px;
+}
+.mylists h4{
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.mylists h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: aqua;
+    height: 2px;
+    width: 70px;
+    box-sizing: border-box;
+}
+.mylists ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.mylists ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.2s ease;
+}
+.con{
+    font-size: 12px;
+    color: #bbbbbb;
+    font-weight: 300;
+    display: block;
+}
+.mylists ul li a:hover{
+    color: #fff;
+    padding-left: 6px;
+    background-color: rgb(0,100,0);
+}
+footer .terms{
+    font-size: 12px;
+    color: #bbbbbb;
+    text-align: center;
+}
 
 
 
